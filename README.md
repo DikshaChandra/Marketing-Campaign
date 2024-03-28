@@ -23,5 +23,3 @@ With marketing campaign data from a hypothetical online subscription business, u
 - scipy
 ## Challenges
 The largest concern I had was when the overall marketing campaign retention rate came back as ~680% which could not be correct. From this point, I had double-checked my code and equations which were all correct. I used value_counts(), min(), max() and various tinkering to assess what was happening to the bool data type for the true/false values of 'is_retained'. I reloaded the data set and tested this before and after, only to discover and correct that converting the column from an object to bool was incorrectly converting missing values to true and false values. The issue was solved with fillna(False).
-
-marketing[['converted', 'is_retained']] = marketing[['converted', 'is_retained']].fillna(False).astype('bool)
