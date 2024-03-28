@@ -1,9 +1,16 @@
-Marketing Campaign Analysis with Pandas
-Conversion Rates Retention Rates Segmentation Data Visualization Attribution A/B Testing
-Description
+# Marketing Campaign Analysis with Pandas
+
+- Conversion Rates
+- Retention Rates
+- Segmentation
+- Data Visualization
+- Attribution
+- A/B Testing
+## Description
+
 With marketing campaign data from a hypothetical online subscription business, used Python and Pandas to translate common business questions into measurable outcomes. Looked into how the campaign performed, which channel(s) referred the most subscribers and dissected why a particular channel was underperforming.
 
-Assess contents and quality of data set
+#- Assess contents and quality of data set
 Use feature engineering to create new columns
 Create functions to automate analysis (retention, conversion, segmentation)
 Segment users and visualize results to see group differences
